@@ -27,4 +27,4 @@ def get_cats_info(path):
 
 
 cats_info = get_cats_info("/Users/antonstoliarchuk/Desktop/My_repo/goit-algo-hw-04/ex2/cats_list.txt")
-print(cats_info)
+print(*cats_info, sep='\n')
