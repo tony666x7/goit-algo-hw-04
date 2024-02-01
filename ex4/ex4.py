@@ -43,7 +43,6 @@ def delete_contact(args, contacts):
     except:
         return f"Контакт {name} не існує\n"
 
-
 def main():
     
     # Основний цикл функції
